@@ -7,7 +7,7 @@
   "main": "tailwind.config.js",
   "devDependencies": {},
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css --minify"
   },
   "keywords": [],
   "author": "",
