@@ -2,7 +2,7 @@
   "name": "notre-dame",
   "version": "1.0.0",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./public/output.css",
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css --minify",
     "dev": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
   },
   "dependencies": {
