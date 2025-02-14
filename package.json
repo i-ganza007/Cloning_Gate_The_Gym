@@ -1,16 +1,11 @@
 {
+  "name": "notre-dame",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css",
+    "dev": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
   "dependencies": {
     "tailwindcss": "^3.4.17"
-  },
-  "name": "kfc",
-  "version": "1.0.0",
-  "main": "tailwind.config.js",
-  "devDependencies": {},
-  "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./public/output.css --minify"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }
