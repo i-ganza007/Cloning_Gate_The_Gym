@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,js}", "./public/**/*.{html,js}"],
+  content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
       colors: {
-        kgb: "rgba(228, 0, 43, 1)", // ✅ Correct way
+        teel: '#0c2340',
+        gold: '#ae9142'
       },
     },
   },
